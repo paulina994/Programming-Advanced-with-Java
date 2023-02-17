@@ -48,6 +48,7 @@ public class Python {
                     rowPython++;
                     break;
             }
+
             //след преместването дали сме излязли извън полето
             if (rowPython < 0 || rowPython >= n) {
                 if (rowPython < 0) {

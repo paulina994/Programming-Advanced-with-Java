@@ -1,4 +1,4 @@
-package MultidimensionalArrays;
+package StackAndQueue;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
@@ -35,7 +35,7 @@ public class Bouquets {
                 tulips.pop();
                 daffodils.poll();
             } else if (sum > 15) {
-                
+
                 tulips.push(tulip - 2);
             } else if (sum < 15) {
                 //съхраняваме сумата за по-късно
